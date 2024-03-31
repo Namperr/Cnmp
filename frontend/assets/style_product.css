@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --font-heading: "Sen", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+/*comon*/
+a {
+  text-decoration: none;
+}
+.heading-lv2 {
+  color: #171100;
+  font-family: var(--font-heading);
+
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.27;
+  letter-spacing: -0.76px;
+}
+.btn {
+  display: inline-block;
+  min-width: 118px;
+  padding: 0px 16px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 24.5px;
+  background: #171100;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.header.fixed {
+  position: sticky;
+  top: -28px;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 36px 0 8px;
+}
+.nav {
+  margin-left: auto;
+}
+.nav ul {
+  display: flex;
+}
+.nav a {
+  position: relative;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  padding: 8px 21px;
+}
+.nav a:hover,
+.nav li.active a {
+  color: #171100;
+  text-shadow: 1px 0 0 currentColor;
+}
+.nav li.active a::after {
+  position: absolute;
+  left: 21px;
+  bottom: 6px;
+  display: block;
+  content: "";
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background: #171100;
+}
+.Product {
+  font-weight: bold;
+}
+.btn_signup {
+  min-width: 144px;
+}
+.header .action {
+  margin-left: 49px;
+}
+.menu {
+  height: 620px;
+  width: 23%;
+  background: black;
+  padding: 50px 0 50px 10px;
+}
+.option {
+  color: white;
+  transition: all 0.3s ease;
+}
+.list_option {
+  margin-bottom: 50px;
+}
+.option1,
+.option2,
+.option3,
+.option4,
+.option5 {
+  width: 260px;
+  padding: 15px 0 10px 0;
+  display: inline-block;
+  flex-direction: none;
+}
+
+.option:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transform: scale(1.02);
+}
+main {
+  display: flex;
+}
+.product_item {
+  display: flex;
+  height: 100%;
+  background-color: #fffcf4;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+.product_item:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.product_item .info {
+  width: 208px;
+  word-wrap: break-word;
+}
+.btn1 {
+  min-width: 100px;
+  line-height: 30px;
+  border: 1px solid;
+}
+.hang1,
+.hang2 {
+  display: flex;
+  gap: 30px;
+  height: 250px;
+}
+.hang2 {
+  margin-top: 50px;
+}
+.hang1 {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.page {
+  margin-top: 20px;
+}
+.page-btn {
+  transition: all 0.3s ease;
+  width: 50px;
+  height: 30px;
+  background-color: gainsboro;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.page-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.menu {
+  margin-right: 20px;
+}
+.btn1:hover {
+  background-color: #fff;
+  color: grey;
+  cursor: pointer;
+}
+.footer {
+  padding: 30px;
+  background-color: #171100;
+  margin-top: 20px;
+}
+.footer .main-content .row {
+  display: flex;
+  color: white;
+  line-height: 30px;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+.prewier {
+  padding-right: 10px;
+}
+.size {
+  height: 28px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+}
+.size:hover {
+  cursor: pointer;
+}
+input[type="text"] {
+  background-color: black;
+  font-weight: bold;
+  padding: 10px;
+  color: #fff;
+  width: 260px;
+}
+.div_finding {
+  color: white;
+  background-color: white;
+  position: absolute;
+  z-index: 9999;
+  top: 240px;
+  left: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.option_finding,
+.select {
+  margin: 10px;
+  font-style: italic;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.option_finding {
+  color: black;
+}
+.select:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  opacity: 0.5;
+}

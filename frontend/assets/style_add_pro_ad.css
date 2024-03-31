@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --font-heading: "Sen", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+/*comon*/
+a {
+  text-decoration: none;
+}
+.heading-lv2 {
+  color: #171100;
+  font-family: var(--font-heading);
+
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.27;
+  letter-spacing: -0.76px;
+}
+.btn {
+  display: inline-block;
+  min-width: 118px;
+  padding: 0px 16px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 24.5px;
+  background: #171100;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.header.fixed {
+  position: sticky;
+  top: -28px;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 36px 0 8px;
+}
+.nav {
+  margin-left: auto;
+}
+.nav ul {
+  display: flex;
+}
+.nav a {
+  position: relative;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  padding: 8px 21px;
+}
+.nav a:hover,
+.nav li.active a {
+  color: #171100;
+  text-shadow: 1px 0 0 currentColor;
+}
+.nav li.active a::after {
+  position: absolute;
+  left: 21px;
+  bottom: 6px;
+  display: block;
+  content: "";
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background: #171100;
+}
+.content_box {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.btn_signup {
+  min-width: 144px;
+}
+.header .action {
+  margin-left: 49px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  height: 430px;
+  width: 461px;
+  border: 1px solid black;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: beige;
+}
+.input_box {
+  display: flex;
+  height: 430px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.element {
+  padding: 10px 10px 32px 10px;
+}
+.btn_sub {
+  display: flex;
+  width: 120px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.btn_sub:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.text {
+  width: 300px;
+  height: 30px;
+}
+.text1 {
+  margin-left: 85px;
+}
+.text2 {
+  margin-left: 73px;
+}
+.text3 {
+  margin-left: 130px;
+}
+.text4 {
+  margin-left: 53px;
+}
+.footer {
+  padding: 50px;
+  background-color: #171100;
+  margin-top: 20px;
+}
+.footer .main-content .row {
+  display: flex;
+  color: white;
+  line-height: 30px;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
